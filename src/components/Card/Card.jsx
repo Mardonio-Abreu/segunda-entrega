@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
 export default function BasicCard({ props }) {
-  let supIndex = props.supIndex;
-  let index = props.index;
-  let image = props.image;
+  let image = "/" + props.image;
   let item = props.item;
   let description = props.description;
   let price = props.price;
