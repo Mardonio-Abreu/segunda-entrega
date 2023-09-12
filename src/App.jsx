@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/reset.css";
 import "./css/style.css";
 import ColorSchemes from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";

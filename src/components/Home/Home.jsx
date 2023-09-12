@@ -3,7 +3,7 @@ import van from "../../logo/1280px-2600_van.jpg";
 
 function Home() {
   return (
-    <Figure>
+    <Figure className="d-flex align-items-center justify-content-center">
       <Figure.Image width={171} height={180} alt="171x180" src={van} />
       <Figure.Caption>
         El nombre de la revista viene del descubrimiento de phreaker en 1960,
